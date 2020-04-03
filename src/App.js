@@ -99,6 +99,7 @@ export default class App extends React.Component {
     return (
       <div className="App">
         <div className="main">
+          <p className="title">ToDo List</p>  
           <header>
             <Input placeholder="请输入您的待办事项" onChange={(e)=>this.inputChange(e)} value={this.state.inputValue} />
             <Radio.Group defaultValue="a" onChange={(e) => this.buttonChange(e)} value={this.state.buttonValue}>
@@ -114,7 +115,7 @@ export default class App extends React.Component {
             pagination={false}
           />
         </div>
-    </div>
+      </div>
     )
   }
 }

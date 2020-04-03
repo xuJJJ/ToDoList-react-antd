@@ -37,7 +37,11 @@ header input {
   margin-right: 20px !important;
   width: 50% !important;
 }
-
+.title{
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
